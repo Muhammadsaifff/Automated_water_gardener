@@ -1,6 +1,6 @@
 const int motorPin = 13;               // Digital pin connected to the transistor
-const unsigned long onDuration = 40000; // 10 seconds in milliseconds
-const unsigned long offDuration = 10000; // 30 seconds in milliseconds
+const unsigned long onDuration = 10000; // 10 seconds in milliseconds
+const unsigned long offDuration = 30000; // 30 seconds in milliseconds
 unsigned long lastActivationTime = 0;
 boolean motorState = HIGH;              // HIGH for OFF, LOW for ON
 const int trigPin = 3;                  // Trig pin of the ultrasonic sensor
